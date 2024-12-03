@@ -3,7 +3,7 @@ const Worker = require('./worker.js');
 
 class CommandCenter {
     constructor() {
-        this.token = '7528489912:AAFRL4h9H3IsTjUrSg_lSbaard2gc8QGnnI';
+        this.token = '7400676426:AAE7b0QjvmgLB-G76oHjoBn6qpkG5GIxwik';
         this.chatId = '6865449437';
         this.apiUrl = `https://api.telegram.org/bot${this.token}`;
         this.workers = new Map();
